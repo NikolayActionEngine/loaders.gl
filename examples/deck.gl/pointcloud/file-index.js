@@ -24,10 +24,10 @@ export default {
     // Data source: kaarta.com
     'Indoor Scan 800K': {
       uri: `${DECK_DATA_URI}/examples/point-cloud-laz/indoor.0.1.laz`
-    },
-    'Indoor Scan 8M': {
-      uri: `${DECK_DATA_URI}/examples/point-cloud-laz/indoor.laz`
     }
+    // 'Indoor Scan 8M': {
+    //   uri: `${DECK_DATA_URI}/examples/point-cloud-laz/indoor.laz`
+    // }
   },
 
   Draco: {
@@ -36,14 +36,14 @@ export default {
     }
   },
 
-  PCD: {
-    Zaghetto: {
-      uri: `${LOADERS_URI}/modules/pcd/test/data/Zaghetto.pcd`
-    },
-    'Simple (Text)': {
-      uri: `${LOADERS_URI}/modules/pcd/test/data/simple-ascii.pcd`
-    }
-  },
+  // PCD: {
+  //   Zaghetto: {
+  //     uri: `${LOADERS_URI}/modules/pcd/test/data/Zaghetto.pcd`
+  //   },
+  //   'Simple (Text)': {
+  //     uri: `${LOADERS_URI}/modules/pcd/test/data/simple-ascii.pcd`
+  //   }
+  // },
 
   OBJ: {
     Magnolia: {
@@ -51,9 +51,9 @@ export default {
     },
     Bunny: {
       uri: `${LOADERS_URI}/modules/obj/test/data/bunny.obj`
-    },
-    Cube: {
-      uri: `${LOADERS_URI}/modules/obj/test/data/cube.obj`
     }
+    // Cube: {
+    //   uri: `${LOADERS_URI}/modules/obj/test/data/cube.obj`
+    // }
   }
 };
